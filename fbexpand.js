@@ -355,7 +355,7 @@ javascript: (function () {
                 }
                 continue;
             }
-            if (isHideReplies(links[i])) {} else if (value === CSS_SEE_MORE && links[i].nodeName === "SPAN") {
+            if (isHideReplies(links[i])) { } else if (value === CSS_SEE_MORE && links[i].nodeName === "SPAN") {
                 continue;
             } else {
                 filter.push(links[i]);
